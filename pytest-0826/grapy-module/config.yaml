@@ -1,0 +1,26 @@
+---
+#获取公厕图例
+url: api/v1/get/graphStyle?toiletId=17
+method: get
+except: '"code": 200'
+
+---
+#获取实时数据
+url: api/v1/get/device_data?toiletId=17
+method: get
+except: '"code": 200'
+
+#---
+#保存平面图信息
+#url: http://192.168.3.171:8481/ucloud-smart-toilet/api/v1/saveGraph
+#method: post
+#dict1:
+#  id: 3
+#  graphJson: hahahahah
+#except: '"code": 200'
+
+---
+#获取平面图
+url: api/v1/get/graphById?id=7
+method: get
+except: '"code": 200'

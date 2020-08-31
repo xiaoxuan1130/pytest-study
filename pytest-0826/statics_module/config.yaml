@@ -1,0 +1,27 @@
+---
+#统计公厕数量
+url: /api/v1/statistics/get/toiletNumber
+method: get
+type: json
+num: 1
+except: '"code": 200'
+
+
+---
+#上传平面图
+url: /a/sys/file/webupload/upload_qiniu
+method: post
+type: image
+num: 2
+location: D:\\software\\grapy.png
+
+
+---
+#修改平面图
+url: /a/toiletinfo/publicLavatory/save
+method: post
+type: json
+num: 3
+except: '"code": 200'
+
+
